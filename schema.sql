@@ -3,7 +3,7 @@ create database Bamazon;
 use Bamazon;
 
 create table Products (
-  item_id integer(11) auto_increment not null,
+  id integer(11) auto_increment not null,
   product_name varchar(100) null,
   department_name varchar(100) null,
   price decimal(6, 2) null,
